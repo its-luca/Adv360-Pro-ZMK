@@ -37,7 +37,7 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_CIRC KC_GRV  // ^ (dead)
+#define DE_CIRC NON_US_BACKSLASH  // ^ (dead) this should be GRAVE but I found out this is the one that works
 #define DE_1    N1    // 1
 #define DE_2    N2    // 2
 #define DE_3    N3    // 3
@@ -61,8 +61,8 @@
 #define DE_I      I    // I
 #define DE_O      O    // O
 #define DE_P      P    // P
-#define DE_UDIA LEFT_BRACKET // Ü TODO
-#define DE_PLUS RIGHT_BRACKET // + TOD
+#define DE_UDIA LEFT_BRACKET // Ü 
+#define DE_PLUS RIGHT_BRACKET // + 
 // Row 3
 #define DE_A       A    // A
 #define DE_S       S    // S
@@ -77,7 +77,7 @@
 #define DE_ADIA APOSTROPHE // Ä
 #define DE_HASH NON_US_HASH // #
 // Row 4
-#define DE_LABK NON_US_BACKSLASH // <
+#define DE_LABK GRAVE // <
 #define DE_Y    Z    // Y
 #define DE_X    X    // X
 #define DE_C    C    // C
@@ -86,7 +86,7 @@
 #define DE_N    N    // N
 #define DE_M    M    // M
 #define DE_COMM COMMA // ,
-#define DE_DOT  KC_DOT  // .
+#define DE_DOT  PERIOD  // .
 #define DE_MINS SLASH // -
 
 /* Shifted symbols
