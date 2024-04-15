@@ -33,28 +33,28 @@
 
     default_layer {
       bindings = <
-        &kp ESC      &none         &none      &none      &none       &none      &tog 1                                                                                                              &mo 3      &none      &none      &none         &none        &kp DE_SS      &kp DEL
+        &kp ESC      &none         &none      &none      &none       &none      &tog 4                                                                                                              &mo 3      &none      &none      &none         &none        &kp DE_SS      &kp DEL
         &kp TAB      &kp Q         &kp W      &kp E      &kp R       &kp T      &kp LCTRL                                                                                                           &kp RCTRL  &kp DE_Z   &kp U      &kp I         &kp O        &kp P          &kp DE_UDIA
         &mo 1        &kp A         &kp S      &kp D      &kp F       &kp G      &kp LGUI                    &kp TAB      &kp LALT                  &kp LGUI       &kp TAB                       &kp RGUI   &kp H      &kp J      &kp K         &kp L        &kp DE_ODIA    &mo 1
-        &kp LSHFT    &kp DE_Y      &kp X      &kp C      &kp V       &kp B                    &none         &none          &kp HOME   &none &none    &kp PG_UP      &none          &none                       &kp N      &kp M      &kp DE_COMM   &kp DE_DOT   &kp DE_ADIA    &kp RSHFT
+        &kp LSHFT    &kp DE_Y      &kp X      &kp C      &kp V       &kp B                                               &kp HOME                  &kp PG_UP                                               &kp N      &kp M      &kp DE_COMM   &kp DE_DOT   &kp DE_ADIA    &kp RSHFT
         &kp LCTRL    &kp LGUI      &kp LALT   &none      &mo 2                                &kp BSPC      &kp ESC        &kp DEL                   &kp PG_DN      &kp ENTER      &kp SPACE                              &mo 2      &none         &none        &none          &kp RCTRL
       >;
-    };
+    };                            
     neoL3 {
       bindings = <
         &kp ESC      &kp N1          &kp N2         &kp N3         &kp N4           &kp N5           &trans                                                                                                           &trans      &kp DE_EURO      &none            &none             &none         &none          &none
         &kp TAB      &none           &kp DE_UNDS    &kp DE_LBRC    &kp DE_RBRC      &kp DE_CIRC      &trans                                                                                                           &trans      &kp DE_EXLM      &kp DE_LABK      &kp DE_RABK       &kp DE_EQL    &kp DE_AMPR    &none
         &none        &kp DE_BSLS     &kp DE_SLSH    &kp DE_LCBR    &kp DE_RCBR      &kp DE_ASTR      &trans                          &kp LCTRL &kp LALT                     &kp LGUI      &kp RCTRL                   &trans      &kp DE_QUES      &kp DE_LPRN      &kp DE_RPRN       &kp DE_MINS   &kp DE_COLN    &kp DE_AT
-        &kp LSHFT    &kp DE_HASH     &kp DE_DLR     &kp DE_PIPE    &kp DE_TILD      &kp DE_GRV                        &none         &none     &kp HOME      &none &none     &kp PG_UP     &none          &none                    &kp DE_PLUS      &kp DE_PERC      &kp DE_DQUO       &kp DE_QUOT   &kp DE_SCLN    &kp RSHIFT
-        &kp LCTRL    &kp LGUI        &kp LALT       &none          &mo 2                                              &kp BSPC      &kp DEL    &kp END                      &kp PG_DN     &kp ENTER      &kp KP_N0                                 &mo 2            &none             &none         &none          &kp RCTRL
+        &kp LSHFT    &kp DE_HASH     &kp DE_DLR     &kp DE_PIPE    &kp DE_TILD      &kp DE_GRV                                                 &kp HOME                     &kp PG_UP                                             &kp DE_PLUS      &kp DE_PERC      &kp DE_DQUO       &kp DE_QUOT   &kp DE_SCLN    &kp RSHIFT
+        &kp LCTRL    &kp LGUI        &kp LALT       &none          &mo 2                                              &kp BSPC      &kp ENTER  &kp END                      &kp PG_DN     &kp ENTER      &kp KP_N0                                 &mo 2            &none             &none         &none          &kp RCTRL
       >;
     };
     neoL4 {
       bindings = <
         &kp F1       &kp F2       &kp F3       &kp F4      &kp F5       &kp F6       &tog 1                                                                         &mo 3        &kp F7        &kp F8        &kp F9        &kp F10        &kp F11        &kp F12
         &trans       &trans       &trans       &kp UP      &trans       &trans       &none                                                                          &none        &trans        &kp KP_N7     &kp KP_N8     &kp KP_N9      &trans         &trans
-        &trans       &kp LC(A)    &kp LEFT     &kp DOWN    &kp RIGHT    &kp LC(E)       &none                &trans &trans                  &trans &trans              &none        &trans        &kp KP_N4     &kp KP_N5     &kp KP_N6      &trans         &trans
-        &trans       &trans       &trans       &trans      &trans       &trans                     &none  &none  &trans    &none &none   &trans &none  &none                     &kp KP_N0     &kp KP_N1     &kp KP_N2     &kp KP_N3      &trans         &trans
+        &trans       &kp LC(A)    &kp LEFT     &kp DOWN    &kp RIGHT    &kp LC(E)       &none                &trans &trans                  &trans &trans           &none        &trans        &kp KP_N4     &kp KP_N5     &kp KP_N6      &trans         &trans
+        &trans       &trans       &trans       &trans      &trans       &trans                                      &trans                  &trans                               &kp KP_N0     &kp KP_N1     &kp KP_N2     &kp KP_N3      &trans         &trans
         &trans       &trans       &trans       &trans      &trans                                  &trans &trans &trans                  &trans &trans &trans                                  &trans        &trans        &trans         &trans         &trans       
       >;      
     };
@@ -67,5 +67,16 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
+
+    gaming {
+      bindings = <
+        &kp ESC      &kp N1        &kp N2     &kp N3     &kp N4      &kp N5    &tog 4                                                                                                              &mo 3      &none      &none      &none         &none        &kp DE_SS      &kp DEL
+        &kp TAB      &kp Q         &kp W      &kp E      &kp R       &kp T      &kp LCTRL                                                                                                           &kp RCTRL  &kp DE_Z   &kp U      &kp I         &kp O        &kp P          &kp DE_UDIA
+        &mo 1        &kp A         &kp S      &kp D      &kp F       &kp G      &kp LGUI                    &kp TAB      &kp LALT                  &kp LGUI       &kp TAB                       &kp RGUI   &kp H      &kp J      &kp K         &kp L        &kp DE_ODIA    &mo 1
+        &kp LSHFT    &kp DE_Y      &kp X      &kp C      &kp V       &kp B                                               &kp HOME                  &kp PG_UP                                               &kp N      &kp M      &kp DE_COMM   &kp DE_DOT   &kp DE_ADIA    &kp RSHFT
+        &kp LCTRL    &kp LGUI      &kp LALT   &none      &mo 2                                &kp SPACE      &kp ENTER        &kp DEL                   &kp PG_DN      &kp ENTER      &kp SPACE                              &mo 2      &none         &none        &none          &kp RCTRL
+      >;
+    }; 
+
   };
 };
