@@ -153,4 +153,5 @@
 #define DE_TILD RA(DE_PLUS) // ~
 // Row 4
 #define DE_PIPE RA(DE_LABK) // |
+#define DE_PIPE_TEST RA(NON_US_BACKSLASH)
 #define DE_MICR RA(DE_M)    // µ
