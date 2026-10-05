@@ -104,5 +104,9 @@
 #define UK_RABK  LS(UK_DOT)  // >
 #define UK_QUES  LS(UK_SLSH) // ?
 
+// macOS British layout exceptions
+#define MAC_UK_AT   LS(UK_2)    // @
+#define MAC_UK_DQUO LS(UK_QUOT) // "
+
 // AltGr symbols
 #define UK_EURO  RA(UK_4)    // €

@@ -10,7 +10,7 @@ Certain ZMK features (e.g. combos) require knowing the exact key positions in th
 
 ### UK keyboard layout
 
-This keymap sends UK ISO keycodes, not characters. Select the English (UK) keyboard layout on Windows (including the RDP client and remote session) and Linux, and the British - PC input source on macOS. Other layouts interpret the same keycodes differently; in particular, the symbol layer's backslash uses the UK ISO key next to Z instead of AltGr. On both symbol layers, U/I produce `<`/`>` and the left-side T position produces `^`. The former degree-sign position now produces `>` rather than `°` or `£`.
+This keymap sends UK ISO keycodes, not characters. Select the English (UK) keyboard layout on Windows (including the RDP client and remote session) and Linux, and the British input source on macOS. Other layouts interpret the same keycodes differently; in particular, the symbol layer's backslash uses the UK ISO key next to Z instead of AltGr. The macOS symbol layer accounts for the British layout's different `@` and `"` positions. On both symbol layers, U/I produce `<`/`>` and the left-side T position produces `^`. The former degree-sign position now produces `>` rather than `°` or `£`.
 
 The base and gaming layers swap UK `Y` and `Z` to preserve the German QWERTZ letter positions. The former `ß`, `Ü`, `Ö`, and `Ä` positions instead produce `-`, `[`, `;`, and `'` on a UK layout.
 
